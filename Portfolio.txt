@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+
+        
+        img{
+            border-radius: 50%;
+           
+            margin-left: auto;
+            display: -webkit-box;
+        }
+        footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: darksalmon;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="menu" class="fas fa bars"></div>
+        <nav class="navbar">
+            <a href="#home" >home</a>
+            <a href="#about" >about</a>
+            <a href="#education" >education</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+        <a href="NehaCV.docx" class="btn">Download CV</a>
+        
+    </header>
+    
+    <section class="home" id="home" >
+        <div class="content">
+            
+            <h3 class="hello">hi,there!</h3>
+            <h4 class="name">i am <span>Neha Thombare</span></h4>
+            <b>I am a Web Developer</b>
+            <a href="DSC_0304.JPG"></a>
+            <img src="DSC_0304.JPG" alt="Hello" width="40%" height="60%">
+        </div>
+        
+        
+    </section>>
+    
+    
+    <section class="about" id="about">
+         <h1 class="heading" about me></h1> 
+         <div class="row">
+             <div class="progress-bar">
+                   <h5 class="title">my skills</h5>
+                   <ul>
+                    <li><h3>HTML</h3></li>
+                    <li><h3>CSS</h3></li>
+                    <li><h3>JAVASCRIPT(basics)</h3></li>
+                    <li><h3>PYTHON</h3></li>
+                    <li><h3>C</h3></li>
+                    <li><h3>SQL</h3></li>
+                   </ul>
+                   <footer>
+                    <p>Mobile no:9420112395</p>
+                    <p>Email:nehacthombare@gmail.com</p>
+                </footer>
+                   
+                   
+             </div>
+         </div>    
+    </section>
+    <section class="education" id="education">
+        <h1 class="heading">education</h1>
+
+        <div class="row">
+            <div class="column">
+                <h3 class="title">my education</h3>
+
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calender"></i>2017-2018</div>
+                    <h3>St.Patrick's High School,Pune(S.S.C.Board)</h3>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calender"></i>2019-2020</div>
+                    <h3>Nowrosjee Wadia College,Pune(H.S.C.Board)</h3>
+                </div>
+                <div class="box">
+                    <div class="year"> <i class="fas fa-calender"></i>2020-2024</div>
+                    <h3>BE in Computer Science Engineering,MESCOE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact" style="background-color: beige">
+        <h1 class="heading">contact me</h1>
+        
+        <div class="box"></div>
+            <form action="">
+                <div class="inputbox">
+                    <label>name</label>
+                    <input type="text" required>
+                    
+                </div>
+                <div class="inputbox">
+                    <label>email</label>
+                    <input type="email" required>
+                   
+                </div>
+                <div class="inputbox">
+                    <label>phone</label>
+                    <input type="number" required>
+                    
+                </div>
+                <div class="inputbox">
+                    <label>Sub</label>
+                    <input type="text" required>
+                    
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <label>message</label>
+                </div>
+
+                <input type="submit" value="send message" class="btn">
+            </form>
+           
+        </div>
+           
+</body>
+</html>
